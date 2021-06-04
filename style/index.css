@@ -1,1 +1,139 @@
-/* Add CSS styling here */
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+/*end of style*/
+
+
+.full {
+    max-width: 100%;
+    padding: 2% 2%;
+    border: 3px solid grey;
+    background-color: #f4f4f4;
+    margin: 1% 1%;}
+
+h1, .header {
+    background-color: antiquewhite;    
+    font-size: 3rem;}
+
+.header {
+    padding: 2%;
+    font-size: rem;}
+
+.links {
+    max-width: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;}
+
+.links a {
+    text-decoration: none;
+    background-color: #d43b3b;
+    font-size: 1.3rem;
+    margin: 2% 2%;
+    border: 2px solid black;
+    color: #25292C;
+    padding: 3%;}    
+
+.section_1 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;}
+
+.section_1 h2 {
+    font-size: 3rem;
+    margin: 5% 0%;}
+
+.section_1 a {
+    color: black;
+    text-decoration: none;
+    padding: 1%;
+    border: 2px solid black;
+    background-color: #d43b3b;}
+
+.section_1 p {
+    font-family: sans-serif;} 
+
+.section_2 h2, a, p {
+    margin: 5% 0%;}
+
+.section_1 img {
+    width: 45%;}
+
+.section_1 div {
+    font-size: 2rem;
+    margin: 0% 6.7%;}
+
+.gallery {
+    margin: 1% 0%;
+    display: flex;}
+
+.gallery img {
+    width:80%;}
+
+.gallery_1 img {
+    padding: 0% 10%;}
+
+.gallery_1 p {
+    font-size: 1.3rem;}    
+
+.gallery p {
+    text-align:center;}
+
+.footer {
+    font-size: 2rem;
+    padding: 2%;
+    background-color: antiquewhite;}
+
+.footer_h2 {
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;}
+
+.footer_links {
+    max-width: 100%;
+    padding: 1%;
+    display: flex;
+    justify-content: center;}
+
+.footer_links a {
+    padding: .2% .2%;
+    text-decoration: none;
+    border: 2px solid black;
+    background-color: #d43b3b;} 
+
+.twitter, .instagram, .linkedin {
+    border: 1px solid grey;
+    margin: 1% 1%;}
