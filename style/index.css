@@ -34,77 +34,106 @@ blockquote:before, blockquote:after, q:before, q:after {
 blockquote, q {
 	quotes: "" "";
 	}
+/*end of style*/
 
-* {
-    
-    
-    
-}
+
+.full {
+    max-width: 100%;
+    padding: 2% 2%;
+    border: 3px solid grey;
+    background-color: #f4f4f4;
+    margin: 1% 1%;}
 
 h1, .header {
     background-color: antiquewhite;    
     font-size: 3rem;}
+
 .header {
     padding: 2%;
-    font-size: 1rem;
-    
-}
-.links a {
-    background-color: antiquewhite;
-    margin:auto;
-    font-size: 1.2rem;
-    border: 1px solid grey;
-    border-radius: 20%;
-    color: #25292C;
-   }
+    font-size: rem;}
 
 .links {
-    background-color: antiquewhite;
-    max-width: 16%;
+    max-width: 5%;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    flex-wrap: nowrap;
-}
+    justify-content: flex-start;}
+
+.links a {
+    text-decoration: none;
+    background-color: #d43b3b;
+    font-size: 1.3rem;
+    margin: 2% 2%;
+    border: 2px solid black;
+    color: #25292C;
+    padding: 3%;}    
 
 .section_1 {
     display: flex;
-    justify-content: flex-start;
     align-items: flex-end;
-}
+    justify-content: space-around;}
+
+.section_1 h2 {
+    font-size: 3rem;
+    margin: 5% 0%;}
+
+.section_1 a {
+    color: black;
+    text-decoration: none;
+    padding: 1%;
+    border: 2px solid black;
+    background-color: #d43b3b;}
+
+.section_1 p {
+    font-family: sans-serif;} 
+
+.section_2 h2, a, p {
+    margin: 5% 0%;}
+
+.section_1 img {
+    width: 45%;}
 
 .section_1 div {
     font-size: 2rem;
-    margin: 0% 5%;
-}
+    margin: 0% 6.7%;}
 
 .gallery {
-    display: flex;
-    
-}
+    margin: 1% 0%;
+    display: flex;}
 
 .gallery img {
-    width:40%;
-}
+    width:80%;}
 
+.gallery_1 img {
+    padding: 0% 10%;}
 
+.gallery_1 p {
+    font-size: 1.3rem;}    
 
+.gallery p {
+    text-align:center;}
 
 .footer {
     font-size: 2rem;
     padding: 2%;
-    background-color: antiquewhite;
-}
+    background-color: antiquewhite;}
 
 .footer_h2 {
+    font-size: 3rem;
     display: flex;
-    justify-content: center;
-}
+    justify-content: center;}
+
 .footer_links {
     max-width: 100%;
-    border: 1px solid grey;
-    padding: 2%;
+    padding: 1%;
     display: flex;
-    justify-content: center;
+    justify-content: center;}
 
-}
+.footer_links a {
+    padding: .2% .2%;
+    text-decoration: none;
+    border: 2px solid black;
+    background-color: #d43b3b;} 
+
+.twitter, .instagram, .linkedin {
+    border: 1px solid grey;
+    margin: 1% 1%;}
